@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+h1 span {
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  background-color: #eee;
+}
+
+ul {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  background-color: #ccc;
+  padding: 10px 0;
+}
+ul li {
+  flex: 0 0 18%;
+  list-style: none;
+  border: 1px solid #666;
+  background-color: #fff;
+  padding: 5px;
+  font-size: 23px;
+  text-align: center;
+}
+ul li:hover, ul li.active {
+  background-color: #666;
+}
+ul li:hover a, ul li.active a {
+  color: #fff;
+}
+ul li a {
+  text-decoration: none;
+}
+
+.article-list,
+.article-single {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #eee;
+  margin: 20px auto;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.work-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-between;
+}
+.work-list > div {
+  flex: 0 0 32%;
+  margin: 10px 0;
+}
+.work-list > div .photo img {
+  max-width: 100%;
+}
+
+.work-single {
+  max-width: 900px;
+  margin: 50px auto;
+}
+.work-single .photo img {
+  max-width: 100%;
+}
+
+.title-bar {
+  border: 1px solid;
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: wrap row;
+  background-color: rgb(19, 63, 138);
+}
+.title-bar h2 {
+  flex: 0 0 calc(100% - 270px);
+  color: #fff;
+}
+.title-bar h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+.title-bar h3 {
+  flex: 0 0 50px;
+  background-color: #f00;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+  color: #fff;
+}
+.title-bar span {
+  flex: 0 0 200px;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(57, 97, 172);
+  margin: 0 auto;
+}
+.btn:hover {
+  background-color: #000;
+}
+
+.form {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.register {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+}
+.register input,
+.register button {
+  font-size: 20px;
+  padding: 10px;
+  flex: 0 0 100%;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=style.css.map */
